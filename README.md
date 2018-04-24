@@ -1,8 +1,8 @@
-# Firebase Quickstarts for Node.js
+# Server-side
 
-A collection of quickstart samples demonstrating the Firebase APIs using the Node.js Admin SDK. For more information, see https://firebase.google.com.
+Firebase admin, node
 
-## Commit rules 
+## Commit rules: 
 
 1) use lint for your code (SonarLint for C# or Eslint for JS, Prettier, etc)
 2) make sure the development version in the 'development' branch
