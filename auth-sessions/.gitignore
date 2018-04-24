@@ -8,8 +8,3 @@ node_modules/
 *~
 *.swp
 public/bundle.js
-
-# Local config.
-**/.firebaserc
-serviceAccountKeys.json
-config.js
