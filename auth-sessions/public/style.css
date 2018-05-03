@@ -102,7 +102,7 @@ body {
  #menu
  {
      display: flex;
-     justify-content: center;
+     /*justify-content: center;*/
      flex-wrap: nowrap;
      bottom: 15vh;
 	 width: 80%;
@@ -119,10 +119,10 @@ body {
 	 padding-left: 2%;
 	 z-index: 5;
 	 font-family: MyriadPro;
-	 float: left;
-	 margin-left: 9.5%;
+	 margin-left: 20.5%;
 	 cursor: pointer;
 	 transition: all 0.3s ease;
+	 padding-top: 1%;
  }
  #FITUNIVERSITYTEAM 
 { 
@@ -239,11 +239,10 @@ body {
 	.layer{
 		animation: border 1s linear 1;
 		border-bottom: 1px double #131e42;
-		font-size: 2.4vw;
-		margin-left: 32%;
+		font-size: 2.5vw;
+		margin-left: 18%;
 		float: none;
 		text-align: center;
-		width: 25vw;
 	}
 	.layer:hover{
 		box-shadow: none;
@@ -252,6 +251,9 @@ body {
 	}
 	#login-page{
 		margin-top: 10vw;
+	}
+	#menu{
+		height: 5vw;
 	}
 }
 
@@ -335,16 +337,18 @@ body {
     display: none;
 }
 
-#layer_6, #layer_7{
+
+/*#layer_6, #layer_7{
     width: 200px;
     height: 45px;
     margin: 0 15% 0 7%;
 }
 
-#layer_6 > span{
+
+#layer_6 {
     margin: 20px 5%;
 }
 
-#layer_7 > span {
+#layer_7 {
     margin: 20px 20%;
-}
+}*/
