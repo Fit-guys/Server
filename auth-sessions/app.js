@@ -30,7 +30,6 @@ var bodyParser = require('body-parser');
  * @return {!Promise} A promise that resolves on success.
  */
 function serveContentForUser(endpoint, req, res, decodedClaims) {
-  // Lookup the user information corresponding to cookie and return the profile data for the user.
   return admin.auth().getUser(decodedClaims.sub).then(function(userRecord) {
     var html = '<!DOCTYPE html>' +
       '<html>' +
